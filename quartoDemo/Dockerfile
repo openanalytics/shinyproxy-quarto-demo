@@ -11,6 +11,9 @@ RUN apt-get update && \
 
 RUN R -q -e "install.packages(c('rmarkdown', 'shiny', 'quarto'))"
 
+RUN mkdir /app
+WORKDIR /app
+
 COPY quartoDemo.qmd .
 
 EXPOSE 3838

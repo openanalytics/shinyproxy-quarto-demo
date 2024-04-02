@@ -20,8 +20,8 @@ proxy:
       display-name: Quarto Demo Application
       container-image: openanalytics/shinyproxy-quarto-demo
     - id: quarto-prerendered-demo
-      display-name: Quarto (Pre-rendered) Demo Application
-      container-image: openanalytics/shinyproxy-quarto-prerendered-demo
+      display-name: Quarto Demo Application (prerendered)
+      container-image: openanalytics/shinyproxy-quarto-demo:prerendered
 
 logging:
   file:
