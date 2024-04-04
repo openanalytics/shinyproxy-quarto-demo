@@ -1,4 +1,4 @@
-FROM rocker/r-ver:4.2.3
+FROM openanalytics/r-ver:4.3.3
 
 # optionally use https://quarto.org/download/latest/quarto-linux-amd64.deb for the latest quarto version
 
