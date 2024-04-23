@@ -20,7 +20,7 @@ cd quartoDemo
 sudo docker build -t openanalytics/shinyproxy-quarto-demo .
 ```
 
-This repository also contains an example of a Qaurto document that is
+This repository also contains an example of a Quarto document that is
 pre-rendered during the Docker build. This reduces the startup time of the
 application. This image is available on Docker Hub:
 
