@@ -1,7 +1,7 @@
 # Running Quarto documents inside ShinyProxy
 
-This repository describes how to add a Quarto document (with or without
-pre-rendering) inside ShinyProxy (at least version 2.5.0).
+This repository describes how to add a [Quarto](https://quarto.org/) document
+(with or without pre-rendering) inside ShinyProxy (at least version 2.5.0).
 
 # Build the Docker image
 
@@ -11,7 +11,7 @@ To pull the image made in this repository from Docker Hub, use
 sudo docker pull openanalytics/shinyproxy-quarto-demo
 ```
 
-the relevant Docker Hub repository can be found at https://hub.docker.com/r/openanalytics/shinyproxy-quarto-demo
+the relevant Docker Hub repository can be found at <https://hub.docker.com/r/openanalytics/shinyproxy-quarto-demo>.
 
 To build the image from the Dockerfile, clone this repository, then navigate to its root directory and run
 
@@ -52,8 +52,10 @@ specs:
     container-image: openanalytics/shinyproxy-quarto-demo:prerendered
 ```
 
-# References
+## References
 
-* <https://quarto.org/docs/get-started/hello/text-editor.html>
+- <https://quarto.org/docs/get-started/hello/text-editor.html>
+- [ShinyProxy.io](https://shinyproxy.io/)
+- [All demos](https://shinyproxy.io/documentation/demos/)
 
 **(c) Copyright Open Analytics NV, 2024.**
