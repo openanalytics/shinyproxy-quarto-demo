@@ -43,13 +43,14 @@ add the following lines to its configuration file (
 see [application.yml](./application.yml) for a complete file):
 
 ```yaml
-specs:
-  - id: quarto-demo
-    display-name: Quarto Demo Application
-    container-image: openanalytics/shinyproxy-quarto-demo
-  - id: quarto-prerendered-demo
-    display-name: Quarto Demo Application (prerendered)
-    container-image: openanalytics/shinyproxy-quarto-demo:prerendered
+proxy:
+  specs:
+    - id: quarto-demo
+      display-name: Quarto Demo Application
+      container-image: openanalytics/shinyproxy-quarto-demo
+    - id: quarto-prerendered-demo
+      display-name: Quarto Demo Application (prerendered)
+      container-image: openanalytics/shinyproxy-quarto-demo:prerendered
 ```
 
 ## References
